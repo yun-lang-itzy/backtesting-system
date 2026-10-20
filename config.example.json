@@ -1,0 +1,16 @@
+{
+  "data": "data/feathers",
+  "exclusions": "data/exclusions.csv",
+  "unknown_status_policy": "allow",
+  "start": "2024-01-02",
+  "end": "2025-12-31",
+  "symbols": [],
+  "strict": false,
+  "engine": {
+    "initial_cash": 1000000,
+    "fee_bps": 3,
+    "sell_extra_bps": 5,
+    "slippage_bps": 5,
+    "participation": 0.001
+  }
+}

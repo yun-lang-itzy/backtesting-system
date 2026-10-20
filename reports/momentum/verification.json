@@ -1,0 +1,62 @@
+{
+  "verified": [
+    "424 date rows",
+    "first-day buys from previous close",
+    "all normal signal times before execution",
+    "all per-trade commissions and sell tax",
+    "daily cash reconstruction",
+    "daily account equity and holdings",
+    "daily per-security inventory and T+1",
+    "all normal fill capacity",
+    "all buys explicit NORMAL at execution",
+    "all holdings valued against raw prices and factors",
+    "settlement pricing and final zero inventory",
+    "main summary and contribution/period return reconciliation"
+  ],
+  "limits": [
+    "No independent vendor/calendar verification",
+    "Unknown raw-price and factor conventions remain assumptions",
+    "No exact historical limit bands or auction data",
+    "Daily OHLC execution proxy is not proof of executable opening fills",
+    "Fractional adjusted units, not real board lots or corporate-action cashflows",
+    "No train/test strategy optimization or cost stress reruns in this run",
+    "Hypothetical terminal settlement ignores execution constraints; turnover and trade statistics include it",
+    "No minimum commission or transfer fee configured"
+  ],
+  "results": {
+    "main": {
+      "days": 424,
+      "first_buy": "2025-01-02",
+      "total_return": -0.0006427890274236514,
+      "max_drawdown": -0.1580527977056222,
+      "average_stock_weight": 0.10679218247522852,
+      "final_equity": 999357210.9725764,
+      "fees": 1805874.6530682142,
+      "slippage": 2534616.818014458,
+      "normal_fills": 4113,
+      "settlement_count": 30,
+      "settlement_notional": 89534536.01604372,
+      "settlement_fee": 53720.72160962622,
+      "end_normal_sell": 27343063.1396821,
+      "final_positions": 0,
+      "max_capacity_ratio": 1.0000000000000004
+    },
+    "equal_weight_": {
+      "days": 424,
+      "first_buy": "2025-01-02",
+      "total_return": 0.37815728604870036,
+      "max_drawdown": -0.20666316055999734,
+      "average_stock_weight": 0.9669496994441868,
+      "final_equity": 1378157286.0487003,
+      "fees": 3430752.1240310404,
+      "slippage": 4451437.22714434,
+      "normal_fills": 386378,
+      "settlement_count": 3103,
+      "settlement_notional": 626591311.1863395,
+      "settlement_fee": 375954.78671180364,
+      "end_normal_sell": 732558549.7231783,
+      "final_positions": 0,
+      "max_capacity_ratio": 1.0000000000000002
+    }
+  }
+}

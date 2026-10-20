@@ -1,0 +1,33 @@
+{
+  "data": "data/feathers",
+  "exclusions": "data/exclusions.csv",
+  "unknown_status_policy": "block",
+  "start": "2025-01-02",
+  "end": "2026-09-30",
+  "symbols": [],
+  "equal_weight_comparison": true,
+  "engine": {
+    "initial_cash": 1000000000.0,
+    "lookback": 20,
+    "top_n": 20,
+    "min_adv": 20000000,
+    "participation": 0.001,
+    "fee_bps": 1,
+    "sell_extra_bps": 5,
+    "slippage_bps": 5,
+    "max_factor_jump": 0.3,
+    "terminal_mode": "settle",
+    "entry_mode": "first_open"
+  },
+  "strategy_params": {
+    "top_n": 20,
+    "investment": 0.95,
+    "max_weight": 0.05,
+    "min_adv": 50000000,
+    "lookback": 60,
+    "skip": 5,
+    "trend_days": 120,
+    "volatility_days": 20
+  },
+  "research": {}
+}

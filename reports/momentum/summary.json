@@ -1,0 +1,28 @@
+{
+  "initial_cash": 1000000000.0,
+  "final_equity": 999357210.9725763,
+  "total_return": -0.0006427890274237624,
+  "cagr": -0.0003691994096228779,
+  "annual_volatility": 0.084296475565123,
+  "sharpe_rf_zero": 0.037585443949199854,
+  "max_drawdown": -0.1580527977056222,
+  "fees": 1805874.6530682142,
+  "slippage_cost": 2534616.818014458,
+  "trades": 4143,
+  "orders": 4522,
+  "order_status": {
+    "partial_capacity_or_cash": 3293,
+    "filled": 820,
+    "slippage_outside_range": 311,
+    "one_price_bar": 39,
+    "hypothetical_settlement": 30,
+    "zero_amount": 11,
+    "estimated_limit_down": 10,
+    "factor_jump": 5,
+    "estimated_limit_up": 3
+  },
+  "final_stale_value": 0.0,
+  "max_stale_value": 0.0,
+  "average_cash_weight": 0.8932078175247714,
+  "annual_one_way_turnover": 1.4544221367778518
+}

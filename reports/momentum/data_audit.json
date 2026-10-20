@@ -1,0 +1,106 @@
+{
+  "open": {
+    "sha256": "a75e7aa3dac9e101f2c3cfff85728b26a29ea50ccc6ec46c315a36e8476d5f92",
+    "shape": [
+      1643,
+      5451
+    ],
+    "missing": 1115203,
+    "zeros": 0,
+    "final_valid": 5226
+  },
+  "high": {
+    "sha256": "88313810bedab563416c94e90a60cc0cf089fd62923be1bcad0e2680558a5cf7",
+    "shape": [
+      1643,
+      5451
+    ],
+    "missing": 1115203,
+    "zeros": 0,
+    "final_valid": 5226
+  },
+  "low": {
+    "sha256": "e5c7da4b6fcdae3cc50fe2f6d30faf36b83c68c25d6db5faba079716748fa8ea",
+    "shape": [
+      1643,
+      5451
+    ],
+    "missing": 1115203,
+    "zeros": 0,
+    "final_valid": 5226
+  },
+  "close": {
+    "sha256": "621b7b381f96c7d162317ac67c8831aebfc5e78f4b1ecd59159fc93e0ea109e7",
+    "shape": [
+      1643,
+      5451
+    ],
+    "missing": 1115203,
+    "zeros": 0,
+    "final_valid": 5226
+  },
+  "amt": {
+    "sha256": "cd2a2f43e273963f93230163813aafaddb52307d1805ee1a583aeab931e418c2",
+    "shape": [
+      1643,
+      5451
+    ],
+    "missing": 1115203,
+    "zeros": 23229,
+    "final_valid": 5226
+  },
+  "num_trades": {
+    "sha256": "37a89a5b9af8a00deafc089be614f7784167ae283277337f31552c809f28a142",
+    "shape": [
+      1643,
+      5451
+    ],
+    "missing": 1120410,
+    "zeros": 23254,
+    "final_valid": 0
+  },
+  "cumadj": {
+    "sha256": "5ebc13623115743c39b2cb56dbe365f10c4c72d6fed6ac4041d9377895439173",
+    "shape": [
+      1643,
+      5451
+    ],
+    "missing": 1115205,
+    "zeros": 0,
+    "final_valid": 5224
+  },
+  "contract": {
+    "start": "2020-01-02 00:00:00",
+    "end": "2026-10-16 00:00:00",
+    "factor_convention": "ASSUMED: adjusted_price = raw_price * cumadj",
+    "amt_unit": "ASSUMED CNY",
+    "archive_hash_status": "Not verified: supplied hash target archive not identified",
+    "supplied_archive_hash": "5766950f2a105244867b842709cf4bad890e4e11df0eebeeaa4fec42dc05803d"
+  },
+  "runtime": {
+    "python": "3.13.5",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3"
+  },
+  "source_hashes": {
+    "worker.py": "d5190650b60ed669a08f0c24bfc814295226081b9d93bfdc6cdd416502684e55",
+    "runner.py": "3aac5b6d0ae7c250a59942b772d11d03bc0d1b3755e1d1d1124661035815d506",
+    "execution.py": "05d7b5c8e79b41461f647fd42b5373f7a5f7757e58c30762a2980e149a2f24d4",
+    "config.py": "3ceb59f8104b876b0a29ad22b2c4ec5774b0dc22b967ea9eb8b5313aa785c73c",
+    "charts.py": "486ab38c7c659201b1736e34e38bb2034efefba56109527d19bff8e475326047",
+    "research.py": "ab37fd7e7cd48b1171f0c89775d4ff8789e897d2f5407cca33b1a40db60cbbb3",
+    "terminal.py": "0a8edf4a264d1fcffe5ed2f297db685e3b3e8a64b0c2a5b45226eaf7327750f9",
+    "__init__.py": "487d9dc4ca7a6c82c6e983ef9d9ab83eadbc79ba75359a51ea1b8c064091d0f9",
+    "strategy.py": "7155ef6a344944ee0d5281e3c6442959b863b0b8ac64e698cdfe927ca7f2baf5",
+    "comparison.py": "45e2ab69b70cc67ba9ea328bee8bb410d1dea6dedd87a6defede84c81129898c",
+    "jobs.py": "3bdca356029e6a9e8645f45cc2e06202d820b4002ce4783e685649caac407669",
+    "engine.py": "943ac4809e4b79631249c0dc7cdbad3190ecf96c7003c4baa80a8fea1b31f67f",
+    "universe.py": "1bc5f6735522b618a642e07712628dfb14e0a00c5c9da5ebeb1011877de89cdb",
+    "contributions.py": "8c37b75710d56a31123f651a45fce4f8a1a6c8f6954723a697f73030674456df",
+    "analytics.py": "2de48787c963ff736264d99c2faa193e3e3624f4eb70b896a72426e318883422",
+    "report.py": "9e6e773088168a46b9d2cc51af7743ede054d294bb6b65665aa27f2cc1cf4329",
+    "data.py": "aa494f1c550174dde4e83753158fc9505bc1fb3562a591b40b7ed7977f12347f"
+  },
+  "strategy_sha256": "0f797e12ec3ab5fa6d8428df674b7b48908495a023b43033451b5cf3c64de55a",
+  "exclusions_sha256": "55a71c780654872c2ebd3046ed5e0936028f9476291875d6be3dff7d346c726f"
+}

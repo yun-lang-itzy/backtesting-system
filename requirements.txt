@@ -1,0 +1,6 @@
+numpy>=2.0,<3
+pandas>=2.2,<3
+pyarrow>=19,<24
+matplotlib>=3.8,<4
+streamlit>=1.40,<2
+Markdown>=3.8,<4

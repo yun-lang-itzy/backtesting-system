@@ -1,0 +1,19 @@
+{
+  "previous_run": "20261020-104628-313c4104",
+  "files_byte_identical": {
+    "daily.csv": true,
+    "orders.csv": true,
+    "trades.csv": true,
+    "holdings.csv": true,
+    "selections.csv": true,
+    "settlements.csv": true,
+    "summary.json": true,
+    "equal_weight_daily.csv": true,
+    "equal_weight_orders.csv": true,
+    "equal_weight_trades.csv": true,
+    "equal_weight_holdings.csv": true,
+    "equal_weight_settlements.csv": true,
+    "comparison.csv": true,
+    "comparison_metrics.csv": true
+  }
+}
